@@ -14,12 +14,18 @@
   background: aqua;
   width: 100%;
   height: 1206px;
-  background-image: url("criancas-de-fundo.jpg");
+  background-image: url("imgs/criancas-de-fundo.jpg");
   background-size: cover;
 }
 .botoes-inf p {
   text-align: center;
   padding-top: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: 48px;
+}
+.botoes-inf .botoes-cadastro {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
