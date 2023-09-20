@@ -1,6 +1,10 @@
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
 .logo {
   height: 150px;
   background: white;
+  border-bottom: 1px solid black;
   margin-top: 30px;
   box-sizing: border-box;
 
@@ -31,12 +35,16 @@
   }
 
   .botoes-cadastro{
-    //background-color: white;
-    //border-color: black;
-    //color: black;
-    border-radius: 5px;
+    background-color: white;
+    border-color: red;
+    color: black;
+  }
 
+  button{
+    //border-color: $dark;
+    --bs-btn-border-color: black;
   }
 
 }
+
 
