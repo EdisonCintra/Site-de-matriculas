@@ -11882,13 +11882,5 @@ textarea.form-control-lg {
   font-weight: bolder;
   font-size: 48px;
 }
-.botoes-inf .botoes-cadastro {
-  background-color: white;
-  border-color: red;
-  color: black;
-}
-.botoes-inf button {
-  --bs-btn-border-color: black;
-}
 
 /*# sourceMappingURL=style.css.map */
