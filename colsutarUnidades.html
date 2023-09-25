@@ -26,20 +26,44 @@
         <div class="card-body">
             <form action="">
                 <fieldset>
-                    <label for="unidadeEducacional">Unidade Educacional</label>
-                    <input type="text" name="unidade" id="unidadeEducacional">
-                    <br>
-                    <label for="bairro">Bairro</label>
-                    <div class="teste col-6">
-                        <i class="bi-person-plus-fill"></i>
-                        <select class="form-select" id="bairro">
-                            <option selected>Selecione</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Unidade Educacional:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" >
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Bairro:</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="selectTurno">Turno:</label>
+                        <select class="form-select" id="selectTurno" >
+                            <option selected disabled hidden></option>
+                            <option value="1">Matutino/Manhã</option>
+                            <option value="2">Vespertino/Tarde</option>
+                            <option value="3">Noturno/Noite</option>
+                            <option value="4">Integral</option>
+                            <option value="5">Intermediário</option>
+                            <option value="5">Diurno</option>
                         </select>
                     </div>
 
+                    <div>
+                        <label for="selectAno">Ano Escolar:</label>
+                        <select class="form-select" id="selectAno" >
+                            <option selected disabled hidden></option>
+                            <option value="1">6° ano</option>
+                            <option value="2">7° ano</option>
+                            <option value="3">8° ano</option>
+                            <option value="4">9° ano</option>
+                            <option value="5">1° ano - Ensino Médio</option>
+                            <option value="6">2° ano - Ensino Médio</option>
+                            <option value="7">3° ano - Ensino Médio</option>
+                        </select>
+                        <button type="button" class="btn btn-primary bi bi-search mt-4">       Pesquisar</button>
+                    </div>
 
                 </fieldset>
             </form>
