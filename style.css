@@ -4,7 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.css';
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11856,7 +11856,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Option 2: Import via CSS */
 .logo {
   height: 150px;
   background: white;
