@@ -5,10 +5,93 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Consultar Transferência</title>
 </head>
 <body>
 
+<!--Header com imagem logo do IFG-->
+<header>
+    <section class="container-fluid logo text-center">
+        <a href="https://www.ifg.edu.br/uruacu" target="_blank"><img src="imgs/horizontal-recortada-semfundo.png" class="img-fluid" alt="Logo do site"></a>
+    </section>
+</header>
+<!--Header com imagem logo do IFG-->
+
+
+<!--Titulo do Formulario-->
+<div class="container">
+    <p class="text-center fw-bolder fs-3">Solicitar Transferência</p>
+</div>
+<!--Titulo do Formulario-->
+
+
+<!--Formuçário-->
+<div class="container tamanho-pagina">
+
+    <div class="container card card-titulo-mudancas mt-5">
+        <div class="card-body text-center">
+            <p> Informe os dados dos Responsáveis</p>
+        </div>
+    </div>
+
+
+    <div class="card card-body-mudancas">
+        <div class="card-body container">
+            <form >
+                <fieldset class="row">
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="cpf" class="form-label">CPF do Solicitante:</label>
+                        <input type="text" class="form-control" id="cpf" >
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="nome" class="form-label">Nome do Solicitante:</label>
+                        <input type="text" class="form-control" id="nome" >
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container card card-titulo-mudancas mt-5">
+        <div class="card-body text-center">
+            <p> Informe o documento do Aluno:</p>
+        </div>
+    </div>
+
+    <div class="card card-body-mudancas">
+        <div class="card-body container">
+            <form>
+                <fieldset class="row">
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="cpf_aluno" class="form-label">CPF:</label>
+                        <input type="text" class="form-control" id="cpf_aluno" >
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="cartao_sus" class="form-label">Cartão SUS:</label>
+                        <input type="text" class="form-control" id="cartao_sus" >
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<!--Formulário-->
+
+
+<!--Script Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+</script>
+<!--Script Bootstrap-->
 
 
 </body>
