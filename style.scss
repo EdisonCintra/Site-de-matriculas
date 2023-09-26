@@ -1,6 +1,6 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import './node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
-
+//@import "./node_modules/bootstrap-icons/font/bootstrap-icons";
 
 //Logo site
 .logo {
@@ -9,8 +9,6 @@
   //border-bottom: 1px solid black;
   margin-top: 30px;
   box-sizing: border-box;
-
-
 
   img{
     width: 400px;
