@@ -11945,4 +11945,20 @@ footer h6, footer .h6 {
   height: 680px;
 }
 
+.mudanca-modal {
+  background-color: #E0E0E0;
+}
+
+.btn-close-mudanca {
+  background-color: white;
+}
+
+.btn-close {
+  --bs-btn-close-opacity: 1;
+}
+
+.form-control-mudancas {
+  padding: 0.375rem 0.6rem;
+}
+
 /*# sourceMappingURL=style.css.map */

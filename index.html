@@ -45,7 +45,7 @@
             </div>
 
             <div class="col-12 col-md-12 col-lg-8 p-2 text-center">
-                <button type="button" class="btn btn-light w-75 border-dark "> <i class="bi bi-file-text"></i>   CONSULTAR CADASTRO</button>
+                <button type="button" class="btn btn-light w-75 border-dark " data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="bi bi-file-text"></i>   CONSULTAR CADASTRO</button>
             </div>
 
             <div class="col-12 col-md-12 col-lg-8 p-2 text-center">
@@ -111,6 +111,33 @@
     </div>
 </footer>
 <!--Footer da empresa-->
+
+<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">-->
+<!--    Launch demo modal-->
+<!--</button>-->
+
+
+<!--Modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog container ">
+        <div class="modal-content ">
+            <!--Header do modal-->
+            <div class="modal-header mudanca-modal">
+                <h5 class="modal-title fw-bolder" id="exampleModalLabel">Consulta de Protocolo</h5>
+                <button type="button" class="btn-close btn-close-mudanca" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!--Body do modal-->
+            <div class="modal-body ">
+                <input class="form-control form-control-mudancas" type="text"  placeholder="Protocolo, Cartão SUS ou CPF do Aluno" aria-label="default input example">
+            </div>
+            <!--Footer do modal-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
 
 
 <!--Script Bootstrap-->
