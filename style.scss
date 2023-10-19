@@ -106,9 +106,13 @@ footer h6 {
   border-top-right-radius: 10px!important;
 }
 
+.card-titulo-mudancas-sem-border{
+  border-radius: 0;
+  background-color: #E0E0E0;
+}
+
 .card-body-mudancas{
-  border-top-left-radius: 0!important;
-  border-top-right-radius: 0!important;
+  border-radius: 0;
 }
 
 
