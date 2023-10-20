@@ -11954,6 +11954,10 @@ footer h6, footer .h6 {
   width: 85px !important;
 }
 
+.mudanca-div-tamanho {
+  width: 260px !important;
+}
+
 .mudanca-modal {
   background-color: #E0E0E0;
 }
